@@ -1,13 +1,13 @@
 {
-  "name": "PURGE_Bot",
+  "name": "AFK Bot",
   "bot-account": {
-    "username": "PurgeBot",
+    "username": "SoloCloudHosting",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "Ultimatelpurge.aternos.me",
-    "port": 34447,
+    "ip": "solocloud.host",
+    "port": 25565,
     "version": "1.20.1",
     "try-creative": false
   },
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Happy"
+      "password": "SoloPlayz"
     },
     "anti-afk": {
       "enabled": true,
@@ -32,7 +32,8 @@
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
-        "Welcome To This server!",
+        "Subscribe to SoloPlayz!",
+        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
       ]
     },
     "chat-log": true,
@@ -44,16 +45,16 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 1500
+      "radius": 4,
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 3000
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 7000
+      "interval": 10000
     }
   },
   "modules": {
